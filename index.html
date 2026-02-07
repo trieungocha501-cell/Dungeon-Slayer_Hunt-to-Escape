@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeon Slayer - Hunt to Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui">
+        <div id="header">
+            <h1 id="title">DUNGEON SLAYER</h1>
+            <div id="quest">NHIỆM VỤ: <span id="q-text">DIỆT HẾT QUÁI VẬT ĐỂ THOÁT THÂN</span></div>
+        </div>
+        <div id="stats">
+            ❤️ MÁU: <span id="hp-val">100</span><br>
+            💀 QUÁI: <span id="m-val">0</span>
+        </div>
+        <div id="toast-container"></div>
+        <div id="inv-menu"><div id="inv-list">Trống</div></div>
+        <div id="inv-btn" onclick="toggleInv()">🎒</div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
